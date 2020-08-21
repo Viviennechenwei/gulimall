@@ -39,6 +39,13 @@
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
         </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>javax.servlet</groupId>-->
+            <!--<artifactId>servlet-api</artifactId>-->
+            <!--<version>2.5</version>-->
+            <!--<scope>provided</scope> &lt;!&ndash;servlet-api一般tomcat都会带，所以scope调成provided， 目标环境已存在， 打包不用包含该servlet api &ndash;&gt;-->
+        <!--</dependency>-->
     </dependencies>
 
 </project>

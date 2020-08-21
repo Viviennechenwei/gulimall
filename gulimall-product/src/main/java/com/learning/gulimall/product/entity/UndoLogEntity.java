@@ -8,8 +8,8 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * 
- * 
+ *
+ *
  * @author vivi
  * @email vivi@gmail.com
  * @date 2020-08-21 22:00:08
@@ -19,42 +19,42 @@ import lombok.Data;
 public class UndoLogEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
-	/**
-	 * $column.comments
-	 */
-	@TableId
-	private Long id;
-	/**
-	 * $column.comments
-	 */
-	private Long branchId;
-	/**
-	 * $column.comments
-	 */
-	private String xid;
-	/**
-	 * $column.comments
-	 */
-	private String context;
-	/**
-	 * $column.comments
-	 */
-	private Longblob rollbackInfo;
-	/**
-	 * $column.comments
-	 */
-	private Integer logStatus;
-	/**
-	 * $column.comments
-	 */
-	private Date logCreated;
-	/**
-	 * $column.comments
-	 */
-	private Date logModified;
-	/**
-	 * $column.comments
-	 */
-	private String ext;
+//	/**
+//	 * $column.comments
+//	 */
+//	@TableId
+//	private Long id;
+//	/**
+//	 * $column.comments
+//	 */
+//	private Long branchId;
+//	/**
+//	 * $column.comments
+//	 */
+//	private String xid;
+//	/**
+//	 * $column.comments
+//	 */
+//	private String context;
+//	/**
+//	 * $column.comments
+//	 */
+//	private Longblob rollbackInfo;
+//	/**
+//	 * $column.comments
+//	 */
+//	private Integer logStatus;
+//	/**
+//	 * $column.comments
+//	 */
+//	private Date logCreated;
+//	/**
+//	 * $column.comments
+//	 */
+//	private Date logModified;
+//	/**
+//	 * $column.comments
+//	 */
+//	private String ext;
 
 }
