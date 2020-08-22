@@ -46,6 +46,22 @@
             <!--<version>2.5</version>-->
             <!--<scope>provided</scope> &lt;!&ndash;servlet-api一般tomcat都会带，所以scope调成provided， 目标环境已存在， 打包不用包含该servlet api &ndash;&gt;-->
         <!--</dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- mysql driver-->
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.17</version>
+        </dependency>
     </dependencies>
 
 </project>
